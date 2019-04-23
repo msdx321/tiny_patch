@@ -48,6 +48,9 @@ int main(int argc, char const *argv[]) {
 
     close(fd);
 
+    free(o_byte);
+    free(n_byte);
+
     exit(EXIT_SUCCESS);
 }
 
